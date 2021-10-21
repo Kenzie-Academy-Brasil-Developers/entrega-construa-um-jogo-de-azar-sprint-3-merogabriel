@@ -57,9 +57,9 @@ function generateRandom() {
     rand = Math.ceil(rand);
 
     if (rand === 1) {
-        img.style.backgroundImage = "url('/assets/imgs/seixo.jpg')";
+        img.style.backgroundImage = "url('./assets/imgs/seixo.jpg')";
     } else if (rand === 2) {
-        img.style.backgroundImage = "url('/assets/imgs/papel.jpg')";
+        img.style.backgroundImage = "url('./assets/imgs/papel.jpg')";
     } else if (rand === 3) {
         img.style.backgroundImage = "url('./assets/imgs/tesoura.png')";
     }
