@@ -57,14 +57,11 @@ function generateRandom() {
     rand = Math.ceil(rand);
 
     if (rand === 1) {
-        img.style.backgroundImage = "url('/seixo.jpg')";
+        img.style.backgroundImage = "url('/assets/imgs/seixo.jpg')";
     } else if (rand === 2) {
-        img.style.backgroundImage = "url('/papel.jpg')";
-        img.style.color = "red";
-
+        img.style.backgroundImage = "url('/assets/imgs/papel.jpg')";
     } else if (rand === 3) {
-        img.style.backgroundImage = "url('/tesoura.png')";
-        img.style.color = "";
+        img.style.backgroundImage = "url('./assets/imgs/tesoura.png')";
     }
     img.style.backgroundSize = "cover"
     img.style.backgroundSize = "no-repeat"

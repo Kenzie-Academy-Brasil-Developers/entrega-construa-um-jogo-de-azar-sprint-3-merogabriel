@@ -40,19 +40,19 @@ p {
 }
 
 #pedra {
-    background-image: url('/seixo.jpg');
+    background-image: url('./imgs/seixo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #papel {
-    background-image: url('/papel.jpg');
+    background-image: url('./imgs/papel.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #tesoura {
-    background-image: url('/tesoura.png');
+    background-image: url('./imgs/tesoura.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
