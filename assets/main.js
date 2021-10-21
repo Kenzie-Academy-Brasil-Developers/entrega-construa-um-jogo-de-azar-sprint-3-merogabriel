@@ -57,13 +57,13 @@ function generateRandom() {
     rand = Math.ceil(rand);
 
     if (rand === 1) {
-        img.style.backgroundImage = "url('seixo.jpg')";
+        img.style.backgroundImage = "url('/seixo.jpg')";
     } else if (rand === 2) {
-        img.style.backgroundImage = "url('papel.jpg')";
+        img.style.backgroundImage = "url('/papel.jpg')";
         img.style.color = "red";
 
     } else if (rand === 3) {
-        img.style.backgroundImage = "url('tesoura.png')";
+        img.style.backgroundImage = "url('/tesoura.png')";
         img.style.color = "";
     }
     img.style.backgroundSize = "cover"
